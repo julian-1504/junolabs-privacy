@@ -1,0 +1,8 @@
+# GitHub Pages setzt baseurl fuer Projektseiten nicht selbst. Ohne den Eintrag zeigen
+# die Theme-Links an /junolabs-privacy vorbei. Links im Inhalt bleiben trotzdem
+# relativ, damit sie von baseurl unabhaengig sind.
+baseurl: "/junolabs-privacy"
+theme: jekyll-theme-minimal
+title: junolabs
+description: Datenschutzerklärungen der junolabs-Apps
+lang: de
