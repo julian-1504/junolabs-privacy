@@ -8,3 +8,13 @@ baseurl: "/junolabs-privacy"
 title: junolabs
 description: Datenschutzerklärungen der junolabs-Apps
 lang: de
+
+# Jekyll kopiert .md-Dateien ohne Front Matter unveraendert ins Ergebnis. Ohne diese
+# Zeile liegen die internen Notizen als Rohtext neben der Datenschutzerklaerung,
+# etwa unter /junolabs-privacy/CLAUDE.md.
+exclude:
+  - README.md
+  - CLAUDE.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
