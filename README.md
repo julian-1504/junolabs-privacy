@@ -11,12 +11,19 @@ Apps liegt woanders und ist nicht öffentlich.
 ## Aufbau
 
 ```
-_config.yml              Theme und baseurl
+_config.yml              baseurl, Titel, Sprache
+_layouts/default.html    das Seitengerüst
+assets/style.css         eine Spalte, Systemschriften, Hell und Dunkel
 index.md                 → /junolabs-privacy/
 moodtrackr/
   index.md               → /junolabs-privacy/moodtrackr/
   datenschutz.md         → /junolabs-privacy/moodtrackr/datenschutz.html
 ```
+
+**Kein Jekyll-Theme.** Das Layout gehört uns. Ein fremdes Theme setzt englischen Text um
+den deutschen Rechtstext — „This project is maintained by …", „Hosted on GitHub Pages" —
+und kann das Gerüst beim nächsten Update unangekündigt ändern. Auf einer Seite, die eine
+verantwortliche Person benennt, ist beides unerwünscht.
 
 Eine weitere App bekommt einen weiteren Ordner. Bestehende URLs bleiben dabei, wie sie sind —
 das ist der Grund für die Ordnerstruktur: die URL steht in der ausgelieferten App, im
@@ -27,9 +34,25 @@ Play-Console-Feld und im OAuth-Bildschirm, und sie zu ändern kostet ein App-Rel
 - **Front Matter.** Jede `.md` braucht den `---`-Block. Fehlt er, behandelt Jekyll die Datei
   als statische Datei und liefert rohes Markdown statt einer Seite.
 - **Absolute Links.** Ein Link mit führendem `/` zeigt an der Projektseite vorbei. Links
-  zwischen den Seiten bleiben relativ (`moodtrackr/datenschutz.html`, zurück `../`).
+  zwischen den Seiten bleiben relativ (`moodtrackr/datenschutz.html`, zurück `../`), und
+  im Layout geht alles durch `relative_url` — sonst lädt das Stylesheet nicht, und die
+  Seite erscheint als unformatierter Text.
 
 Veröffentlicht wird aus *Settings → Pages → Branch `main`, Ordner `/` (root)*.
+
+## Sprache: deutsch, und das mit Absicht
+
+Die Apps sind deutschsprachig, also sind es diese Seiten auch. Google Play schreibt für die
+Datenschutzerklärung **keine** Sprache vor — verlangt ist nur eine erreichbare, nicht
+geoblockte, unveränderliche URL —, und das Feld in der Play Console nimmt ohnehin nur eine
+einzige URL, nicht eine pro Sprachvariante des Eintrags.
+
+Eine englische Fassung kommt, wenn eine App lokalisiert wird, und dann geschlossen:
+Oberfläche, Store-Eintrag und Rechtsseite zusammen. Sie kommt als **zusätzliche Datei unter
+einem neuen Pfad** — vorgesehen `moodtrackr/privacy.html` neben `datenschutz.html`, mit
+gegenseitigen Sprachlinks. Die bestehende URL bewegt sich dabei nie: sie steht in der
+ausgelieferten App, im Play-Console-Feld und im OAuth-Zustimmungsbildschirm, und sie zu
+ändern kostet ein App-Release.
 
 ## Diese Texte sind die einzige Fassung
 

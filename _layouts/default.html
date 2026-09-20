@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'de' }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title and page.title != site.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+<meta name="description" content="{{ page.description | default: site.description }}">
+<link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+<main>
+{{ content }}
+</main>
+<footer>
+<p><a href="{{ '/' | relative_url }}">Übersicht</a> · Der Quelltext dieser Seiten liegt offen auf <a href="https://github.com/julian-1504/junolabs-privacy">GitHub</a>.</p>
+</footer>
+</body>
+</html>
