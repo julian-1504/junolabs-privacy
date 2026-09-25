@@ -83,6 +83,7 @@ Für VocTrainr (`voc-trainr`, ohne Remote):
 | Teilen nur über eine Cache-Datei | `transfer/VocabFileStore.kt` — `shareable`; `res/xml/file_paths.xml` |
 | Erinnerung lokal, ohne Push-Dienst | `reminder/ReminderScheduler.kt`, `ReminderWorker.kt` |
 | Keine Analyse- oder Werbe-SDKs | `app/build.gradle.kts` — `dependencies` |
+| Welche Diagnosedaten ML Kit an Google sendet | Googles Seite *ML Kit – Data disclosure* und die ML-Kit-Module in `libs.versions.toml` (neues Modul → Seite erneut prüfen) |
 
 Dasselbe gilt für das Data-Safety-Formular in der Play Console: Formular und Seite müssen
 dasselbe sagen.

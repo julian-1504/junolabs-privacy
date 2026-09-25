@@ -20,8 +20,9 @@ Unter dieser Adresse erreichst du den Anbieter mit allen Fragen zum Datenschutz.
 VocTrainr speichert alles auf deinem Gerät. Es gibt keinen Server des Anbieters, kein
 Nutzerkonto und keine Anmeldung. Der Anbieter erhält weder deine Vokabeln noch deinen
 Lernfortschritt noch deine Fotos. Die App enthält keine Werbung und bindet selbst keine
-Analyse- oder Tracking-Bibliotheken ein. Für das Scannen von Buchseiten nutzt sie Dienste von
-Google auf deinem Gerät — was dabei passiert, steht unten.
+Analyse- oder Tracking-Bibliotheken ein. Für das Scannen von Buchseiten nutzt sie Google ML
+Kit auf deinem Gerät; ML Kit meldet dabei technische Diagnosedaten an Google — welche, steht
+unten.
 
 ## Welche Daten die App verarbeitet
 
@@ -54,10 +55,16 @@ Gerät**; die Sprache des erkannten Texts schätzt ebenfalls ein Modell auf dem 
 - Beim ersten Scan lädt Google Play den Scanner nach, und für einige Schriften (Chinesisch,
   Japanisch, Koreanisch, Devanagari) lädt es beim ersten Gebrauch ein Erkennungsmodell
   herunter. Dabei werden keine Inhalte von dir übertragen.
-- Google kann bei der Nutzung dieser Funktionen technische Informationen zur Nutzung und
-  Leistung erheben, etwa Fehlerberichte. Dafür ist Google verantwortlich; Details stehen in
-  den [Bedingungen von ML Kit](https://developers.google.com/ml-kit/terms) und in der
-  [Datenschutzerklärung von Google](https://policies.google.com/privacy).
+- ML Kit sendet bei der Nutzung dieser Funktionen technische Daten an Google, die der
+  Fehleranalyse und der Nutzungsstatistik dienen: Gerätehersteller und -modell,
+  Android-Version, Paketname und Version der App, eine Kennung pro Installation (sie soll
+  dich nicht als Person identifizieren), Laufzeiten, Fehlercodes, Bildformat und -auflösung,
+  die Größe von Ein- und Ausgabe sowie die **erkannte Sprache** eines Texts — nicht den Text
+  selbst. Die Übertragung ist verschlüsselt (HTTPS); Google gibt diese Daten laut eigener
+  Angabe nicht an Dritte weiter. Welche Daten das genau sind, beschreibt Google unter
+  [ML Kit – Data disclosure](https://developers.google.com/ml-kit/android-data-disclosure);
+  weitere Details stehen in den [Bedingungen von ML Kit](https://developers.google.com/ml-kit/terms)
+  und in der [Datenschutzerklärung von Google](https://policies.google.com/privacy).
 
 ## Aussprache
 
