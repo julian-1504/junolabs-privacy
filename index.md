@@ -11,3 +11,4 @@ speichern, was du einträgst, auf deinem Gerät.
 ## Apps
 
 - [MoodTrackr](moodtrackr/) — Stimmungstagebuch für Android
+- [VocTrainr](voctrainr/) — Vokabeltrainer für Android
