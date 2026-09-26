@@ -73,7 +73,7 @@ etwas, muss es hier nachgezogen werden. Für MoodTrackr (`mood-trackr`) sind das
 | Android-Cloud-Backup ist abgeschaltet | `AndroidManifest.xml` — `allowBackup="false"` |
 | Der Schlüssel liegt im Android Keystore | `BackupStore.kt`, `data/crypto/` |
 
-Für VocTrainr (`voc-trainr`, ohne Remote):
+Für VocTrainr (`julian-1504/voc-trainr`, privat):
 
 | Aussage auf der Seite | Hängt an |
 |---|---|

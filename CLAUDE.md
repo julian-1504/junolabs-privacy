@@ -14,7 +14,7 @@ bestehenden.
 
 Die Aussagen über eine App — wie viele Sicherungen aufbewahrt werden, welcher OAuth-Scope
 angefragt wird, was auf dem Gerät gespeichert wird — hängen an Code, der in einem anderen
-Repo liegt (MoodTrackr: `julian-1504/mood-trackr`, privat; VocTrainr: `voc-trainr`, lokal). Welche Aussage woran hängt,
+Repo liegt (MoodTrackr: `julian-1504/mood-trackr`, privat; VocTrainr: `julian-1504/voc-trainr`, privat). Welche Aussage woran hängt,
 steht in `README.md` als Tabelle. Bei jeder inhaltlichen Änderung dort nachsehen, und im
 Zweifel gegen den echten Code prüfen statt zu raten: Ein Rechtstext, der etwas Falsches
 behauptet, ist schlimmer als einer, der etwas weglässt.
