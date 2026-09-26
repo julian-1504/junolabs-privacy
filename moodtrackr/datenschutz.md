@@ -5,7 +5,7 @@ title: Datenschutzerklärung
 
 # Datenschutzerklärung für MoodTrackr
 
-Stand: 20. September 2026
+Stand: 26. September 2026
 
 ## Wer verantwortlich ist
 
@@ -30,6 +30,12 @@ Daten verlassen dein Gerät nur in den beiden unten beschriebenen Fällen, und b
 selbst aus. Androids eigenes Cloud-Backup ist für diese App abgeschaltet
 (`allowBackup="false"`), damit deine Einträge nicht auf einem Weg abfließen, den die App
 nicht kontrolliert.
+
+Wenn du möchtest, kannst du der App sagen, wie sie dich nennen soll — einen Vornamen oder
+Spitznamen. Die Angabe ist freiwillig. Die App nutzt den Namen nur, um dich anzusprechen,
+etwa auf der Startseite und in der abendlichen Erinnerung; auf dem Sperrbildschirm erscheint
+die Erinnerung ohne Namen. Der Name wird nur auf deinem Gerät gespeichert und verlässt es
+nie: Er ist weder in der Sicherung in Google Drive noch im Export enthalten.
 
 Die abendliche Erinnerung wird vollständig auf deinem Gerät geplant und ausgelöst; es ist
 kein Push-Dienst beteiligt und es werden dafür keine Daten übertragen.
@@ -97,17 +103,22 @@ Dir stehen nach DSGVO die Rechte auf Auskunft, Berichtigung, Löschung, Einschr�
 Datenübertragbarkeit und Widerspruch zu. In der Praxis brauchst du dafür niemanden zu
 fragen: Der Anbieter hat deine Daten nicht.
 
-- **Auskunft und Übertragbarkeit:** die Export-Funktion in der App.
-- **Löschung:** Einträge in der App löschen, die Sicherung abschalten (dabei die Kopie in
-  Drive löschen lassen) oder die App deinstallieren.
+- **Auskunft und Übertragbarkeit:** die Export-Funktion in der App. Den Namen, falls du
+  einen angegeben hast, siehst du unter *Einstellungen → Über dich*.
+- **Berichtigung:** Einträge in der App bearbeiten; den Namen unter *Einstellungen → Über
+  dich* ändern.
+- **Löschung:** Einträge in der App löschen, den Namen unter *Einstellungen → Über dich*
+  entfernen, die Sicherung abschalten (dabei die Kopie in Drive löschen lassen) oder die App
+  deinstallieren.
 
 Wenn du dennoch eine Frage hast, erreichst du den Anbieter unter junolabs@julian-alt.de. Du
 hast außerdem das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren.
 
 ## Alter
 
-MoodTrackr richtet sich an Jugendliche ab 13 Jahren. Die App fragt weder nach dem Namen noch
-nach dem Alter noch nach einer E-Mail-Adresse und legt kein Nutzerkonto an.
+MoodTrackr richtet sich an Jugendliche ab 13 Jahren. Die App fragt nur freiwillig, wie sie
+dich nennen soll, und dieser Name bleibt auf deinem Gerät. Sie fragt weder nach dem Alter
+noch nach einer E-Mail-Adresse und legt kein Nutzerkonto an.
 
 ## Änderungen
 
