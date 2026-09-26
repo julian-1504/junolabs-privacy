@@ -80,6 +80,14 @@ im Android Keystore verwahrt, also in dem dafür vorgesehenen, hardwaregestützt
 Schlüsselspeicher des Systems, und nicht als Datei daneben. Die Übertragung nach Google
 Drive läuft ausschließlich über TLS.
 
+Wenn du möchtest, schützt die App sich zusätzlich mit der Displaysperre deines Geräts
+(*Einstellungen → App-Sperre*). Fingerabdruck, Gesicht oder die PIN deines Geräts prüft
+dabei Android selbst; die App erfährt nur, ob die Prüfung geklappt hat, und erhält keine
+biometrischen Daten. Gespeichert wird nur, ob die Sperre eingeschaltet ist und nach welcher
+Zeit sie wieder greift — auf deinem Gerät, nicht in der Sicherung und nicht im Export.
+Solange die Sperre an ist, zeigt Android den Inhalt der App auch nicht in der Übersicht der
+zuletzt genutzten Apps und lässt keine Bildschirmfotos von ihr zu.
+
 ## Wie lange die Daten bleiben
 
 Deine Einträge auf dem Gerät bleiben so lange, bis du sie löschst oder die App
