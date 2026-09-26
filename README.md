@@ -81,6 +81,7 @@ Für VocTrainr (`voc-trainr`, ohne Remote):
 | Fotos landen nicht in den App-Daten | `data/db/*Entity.kt` — keine Bild-URI; der Scanner schreibt nur in den Cache |
 | Scanner und einige Schriftmodelle kommen über Play | `ui/scan/ScanScreen.kt` — `ModuleInstall`; `libs.versions.toml` — `play-services-mlkit-*` |
 | Teilen nur über eine Cache-Datei | `transfer/VocabFileStore.kt` — `shareable`; `res/xml/file_paths.xml` |
+| Optionaler Name nur lokal, nicht im Export | `data/SettingsRepository.kt` — `USER_NAME`; `transfer/VocabFile.kt` — kein Namensfeld |
 | Erinnerung lokal, ohne Push-Dienst | `reminder/ReminderScheduler.kt`, `ReminderWorker.kt` |
 | Keine Analyse- oder Werbe-SDKs | `app/build.gradle.kts` — `dependencies` |
 | Welche Diagnosedaten ML Kit an Google sendet | Googles Seite *ML Kit – Data disclosure* und die ML-Kit-Module in `libs.versions.toml` (neues Modul → Seite erneut prüfen) |

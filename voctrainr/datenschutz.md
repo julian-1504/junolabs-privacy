@@ -5,7 +5,7 @@ title: Datenschutzerklärung
 
 # Datenschutzerklärung für VocTrainr
 
-Stand: 25. September 2026
+Stand: 26. September 2026
 
 ## Wer verantwortlich ist
 
@@ -36,6 +36,9 @@ auf deinem Gerät gespeichert:
   dran ist, wie oft du sie richtig oder falsch hattest, und ein Verlauf deiner Antworten mit
   Zeitstempeln — daraus entstehen Tagesziel, Lernserie und Statistik
 - **Einstellungen** wie Tagesziel, Abfragerichtung, Erinnerungszeit, Sprechtempo und Design
+- **Name (optional):** ein Vor- oder Spitzname, mit dem dich die App anspricht — bei der
+  Begrüßung, in der Erinnerung und nach dem Lernen. Du kannst ihn weglassen und in den
+  Einstellungen jederzeit ändern oder entfernen.
 
 Andere Apps auf dem Gerät können diese Daten nicht lesen.
 
@@ -76,8 +79,10 @@ Sprachausgabe, nicht diese App.
 ## Tägliche Erinnerung
 
 Die Erinnerung wird vollständig auf deinem Gerät geplant und ausgelöst; es ist kein
-Push-Dienst beteiligt, und es werden dafür keine Daten übertragen. Du kannst sie in der App
-oder in den Benachrichtigungseinstellungen von Android abschalten.
+Push-Dienst beteiligt, und es werden dafür keine Daten übertragen. Hast du einen Namen
+angegeben, steht er im Titel der Benachrichtigung und ist damit — je nach deinen
+Android-Einstellungen — auch auf dem Sperrbildschirm zu sehen. Du kannst die Erinnerung in der
+App oder in den Benachrichtigungseinstellungen von Android abschalten.
 
 ## Android-Sicherung
 
@@ -96,13 +101,13 @@ abschalten; für die Verarbeitung durch Google gilt die Datenschutzerklärung vo
   an die App, die du im Teilen-Menü auswählst — etwa um ein Buch an Geschwister zu schicken.
 - **Importieren** liest eine solche Datei, die du selbst auswählst.
 
-Die Dateien sind unverschlüsselt. Sie verlassen dein Gerät nur, wenn du sie selbst
-weitergibst oder verschiebst.
+Dein Name kommt in diese Dateien nicht hinein. Die Dateien sind unverschlüsselt. Sie verlassen
+dein Gerät nur, wenn du sie selbst weitergibst oder verschiebst.
 
 ## Wie lange die Daten bleiben
 
-Deine Bücher, Vokabeln und dein Lernfortschritt bleiben so lange, bis du sie in der App
-löschst, die App-Daten in den Android-Einstellungen löschst oder die App deinstallierst. Eine
+Deine Bücher, Vokabeln, dein Lernfortschritt und dein Name bleiben so lange, bis du sie in der
+App löschst bzw. den Namen in den Einstellungen entfernst, die App-Daten in den Android-Einstellungen löschst oder die App deinstallierst. Eine
 automatische Löschung nach Zeit gibt es nicht.
 
 ## Was die App nicht tut
@@ -118,18 +123,21 @@ Dir stehen nach DSGVO die Rechte auf Auskunft, Berichtigung, Löschung, Einschr�
 Datenübertragbarkeit und Widerspruch zu. In der Praxis brauchst du dafür niemanden zu
 fragen: Der Anbieter hat deine Daten nicht.
 
-- **Auskunft und Übertragbarkeit:** die Export-Funktion in der App.
-- **Berichtigung:** Vokabeln lassen sich in der App bearbeiten.
-- **Löschung:** Bücher, Seiten und Vokabeln in der App löschen, die App-Daten in den
-  Android-Einstellungen löschen oder die App deinstallieren.
+- **Auskunft und Übertragbarkeit:** die Export-Funktion in der App; deinen Namen siehst du in
+  den Einstellungen.
+- **Berichtigung:** Vokabeln lassen sich in der App bearbeiten, den Namen änderst du in den
+  Einstellungen.
+- **Löschung:** Bücher, Seiten und Vokabeln in der App löschen, den Namen in den Einstellungen
+  entfernen, die App-Daten in den Android-Einstellungen löschen oder die App deinstallieren.
 
 Wenn du dennoch eine Frage hast, erreichst du den Anbieter unter junolabs@julian-alt.de. Du
 hast außerdem das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren.
 
 ## Alter
 
-VocTrainr richtet sich an Schülerinnen und Schüler ab 13 Jahren. Die App fragt weder nach dem
-Namen noch nach dem Alter noch nach einer E-Mail-Adresse und legt kein Nutzerkonto an.
+VocTrainr richtet sich an Schülerinnen und Schüler ab 13 Jahren. Die App fragt nicht nach dem
+Alter oder einer E-Mail-Adresse und legt kein Nutzerkonto an. Nach einem Namen fragt sie nur
+freiwillig; er bleibt auf deinem Gerät.
 
 ## Änderungen
 
