@@ -21,6 +21,10 @@ moodtrackr/
 voctrainr/
   index.md               → /junolabs-privacy/voctrainr/
   datenschutz.md         → /junolabs-privacy/voctrainr/datenschutz.html
+summitrush/
+  index.md               → /junolabs-privacy/summitrush/
+  datenschutz.md         → /junolabs-privacy/summitrush/datenschutz.html
+  privacy.md             → /junolabs-privacy/summitrush/privacy.html
 ```
 
 **Kein Jekyll-Theme.** Das Layout gehört uns. Ein fremdes Theme setzt englischen Text um
@@ -88,3 +92,15 @@ Für VocTrainr (`julian-1504/voc-trainr`, privat):
 
 Dasselbe gilt für das Data-Safety-Formular in der Play Console: Formular und Seite müssen
 dasselbe sagen.
+
+Für Summit Rush (`julian-1504/summit-rush`, privat; die App gibt es auf Deutsch und Englisch,
+darum gibt es beide Fassungen von Anfang an — die Play Console bekommt `privacy.html`, weil
+der Store-Eintrag auf Englisch angelegt ist):
+
+| Aussage auf der Seite | Hängt an |
+|---|---|
+| Keine Berechtigung, kein Internet | `game/export_presets.cfg` — keine `permissions/*=true` |
+| Android-Sicherung an | `game/export_presets.cfg` — `user_data_backup/allow=true` |
+| Inhalt der Spielstand-Datei | `game/progression/profile.gd`, `settings.gd`; `docs/game/architecture.md`, „Save data" |
+| „Fortschritt löschen" behält die Einstellungen | `game/content/strings/*.json` — `SETTINGS_RESET_TEXT` |
+| Keine Analyse- oder Werbe-SDKs | kein Ordner `game/addons/` (keine Godot-Plugins); `game/android/build/build.gradle` — `dependencies`, nur die AndroidX-Bibliotheken der Godot-Vorlage |

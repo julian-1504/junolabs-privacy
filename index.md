@@ -12,3 +12,4 @@ speichern, was du einträgst, auf deinem Gerät.
 
 - [MoodTrackr](moodtrackr/) — Stimmungstagebuch für Android
 - [VocTrainr](voctrainr/) — Vokabeltrainer für Android
+- [Summit Rush](summitrush/) — Physik-Rennspiel für Android
